@@ -49,6 +49,7 @@ export default function Navbar() {
       </Link>
 
       <div className="flex items-center gap-4 relative" ref={dropdownRef}>
+        {user && !user.isAdmin && (<Link href="/">Home</Link>)}
         {user && !user.isAdmin && (
           <Link href="/cart" className="relative">
             Cart

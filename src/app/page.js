@@ -1,4 +1,5 @@
 'use client';
+import React from 'react';
 import { useEffect, useState, useContext } from 'react';
 import ProductCard from './components/ProductCard';
 import FilterBar from './components/FilterBar';
